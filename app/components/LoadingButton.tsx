@@ -1,11 +1,10 @@
-import React from "react";
 import { Button } from "@nextui-org/react";
 
-function LoadingButton() {
+export default function LoadingButton() {
   return (
     <Button
       isLoading
-      color="primary"
+      color="success"
       spinner={
         <svg
           className="animate-spin h-5 w-5 text-current"
@@ -29,9 +28,6 @@ function LoadingButton() {
         </svg>
       }
     >
-      Loading
     </Button>
   );
 }
-
-export default LoadingButton;
