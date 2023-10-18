@@ -9,8 +9,6 @@ const huggingfaceInferenceKey: HfInference = new HfInference(
 export const runtime = "edge";
 
 export async function POST(req: Request): Promise<Response> {
-  const contextualPrompt: string = `As per the Residential Tenancy Act in Nova Scotia, `;
-
   const { messages }: { messages: any } = await req.json();
 
   try {

@@ -1,6 +1,6 @@
 "use client";
 import { useChat } from "ai/react";
-import { Button, Textarea } from "@nextui-org/react";
+import { Textarea } from "@nextui-org/react";
 import LoadingButton from "./components/LoadingButton";
 import SendButton from "./components/SendButton";
 import { useEffect, useRef } from "react";
@@ -51,9 +51,6 @@ export default function Chat() {
           fullWidth
         />
         <div className="flex flex-col gap-2">
-          <Button onClick={stop} color="danger" className="hidden">
-            Stop
-          </Button>
           {isLoading ? <LoadingButton /> : <SendButton />}
         </div>
       </form>
