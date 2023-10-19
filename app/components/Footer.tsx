@@ -18,9 +18,10 @@ export default function Footer() {
 					href="https://nextjs.org/"
 					className="flex items-center font-medium underline transition-colors underline-offset-4 hover:text-black/70"
 				>
-					<img src="/next.svg" className="h-4 my-2" alt="next.js logo" />
+					<img src="/next.svg" className="h-2 my-2" alt="next.js logo" />
+          <p>Next.js</p>
           </a>
-				.
+				 .
       </div>
       <div className="flex flex-col items-center justify-center">
 				<a
