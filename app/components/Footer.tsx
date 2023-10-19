@@ -25,7 +25,7 @@ export default function Footer() {
       </div>
       <div className="flex flex-col items-center justify-center">
 				<a
-					href="https://github.com/Raff29/rental-ai"
+					href="https://github.com/Raff29/Ai-Chatbot"
 					className="flex items-center font-medium underline transition-colors underline-offset-4 hover:text-black/70"
 				>
 					<img src="/github.svg" alt="GitHub Logo" className="h-4" />
