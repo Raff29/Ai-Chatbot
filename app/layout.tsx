@@ -17,8 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark/light">
-      <script src="https://kit.fontawesome.com/fef2ffa89a.js" crossOrigin="anonymous" async />
-      <body className={inter.className}>
+      <body className={inter.className } >
         <Providers>{children}</Providers>
       </body>
     </html>

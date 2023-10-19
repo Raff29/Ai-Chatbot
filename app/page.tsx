@@ -6,7 +6,7 @@ import SendButton from "./components/SendButton";
 import { useEffect, useRef } from "react";
 
 export default function Chat() {
-  const { messages, isLoading, input, stop, handleInputChange, handleSubmit } =
+  const { messages, isLoading, input, handleInputChange, handleSubmit } =
     useChat({
       api: "/api/completion",
     });
