@@ -3,6 +3,7 @@ import { Button } from "@nextui-org/react";
 export default function LoadingButton() {
   return (
     <Button
+      aria-label="loading-button"
       isLoading
       color="success"
       spinner={
@@ -27,7 +28,6 @@ export default function LoadingButton() {
           />
         </svg>
       }
-    >
-    </Button>
+    ></Button>
   );
 }
