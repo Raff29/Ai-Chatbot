@@ -5,6 +5,7 @@ import LoadingButton from "./components/LoadingButton";
 import SendButton from "./components/SendButton";
 import { useEffect, useRef } from "react";
 import { ThemeSwitch } from "./components/ThemeSwitcher";
+import Footer from "./components/Footer";
 
 export default function Chat() {
   const { messages, isLoading, input, handleInputChange, handleSubmit } =
@@ -63,6 +64,10 @@ export default function Chat() {
           {isLoading ? <LoadingButton /> : <SendButton />}
         </div>
       </form>
+      <div>
+        <Divider />
+      </div>
+      <Footer />
     </div>
   );
 }
