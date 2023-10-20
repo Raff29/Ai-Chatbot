@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Footer() {
   return (
 		<div className="flex flex-col justify-center w-full my-4">
@@ -8,6 +6,8 @@ export default function Footer() {
 				<a
 					href="https://huggingface.co/OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5"
 					className="flex items-center mx-1 font-medium underline transition-colors underline-offset-4 hover:text-black/70"
+					target="_blank"
+          rel="noopener noreferrer"
 				>
 					<p>Open-Assistant SFT-4 12B Model</p>
 				</a>
@@ -15,6 +15,8 @@ export default function Footer() {
         <a
 					href="https://nextjs.org/"
 					className="flex items-center font-medium underline transition-colors underline-offset-4 hover:text-black/70"
+					target="_blank"
+          rel="noopener noreferrer"
 				>
 					<img src="/next.svg" className="h-2 my-2" alt="next.js logo" />
           <p>Next.js</p>
@@ -25,6 +27,8 @@ export default function Footer() {
 				<a
 					href="https://github.com/Raff29/Ai-Chatbot"
 					className="flex items-center font-medium underline transition-colors underline-offset-4 hover:text-black/70"
+					target="_blank"
+          rel="noopener noreferrer"
 				>
 					<img src="/github.svg" alt="GitHub Logo" className="h-4" />
 					<p className="ml-1">Source</p>
