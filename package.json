@@ -12,6 +12,7 @@
     "@huggingface/inference": "^2.6.4",
     "@nextui-org/react": "^2.1.13",
     "@react-aria/ssr": "^3.8.0",
+    "@vercel/analytics": "^1.1.1",
     "ai": "^2.2.15",
     "analytics": "github:vercel/analytics",
     "express": "^4.18.2",

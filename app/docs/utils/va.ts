@@ -1,3 +1,4 @@
+import va from "@vercel/analytics";
 
 export function getUniqueID(prefix: string) {
   return `${prefix}-${new Date().getTime()}`;
@@ -27,8 +28,8 @@ export const trackEvent = (label: string, event: TrackEvent) => {
 
   const sessionId = getSessionId();
 
-  // va.track(label, {
-  //   ...event,
-  //   sessionId,
-  // });
+  va.track(label, {
+    ...event,
+    sessionId,
+  });
 };
