@@ -33,7 +33,7 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({className, classNames}) => {
 
   const {Component, slots, getBaseProps, getInputProps, getWrapperProps, isSelected} = useSwitch({
     isSelected: theme === "light",
-    "aria-label": `Switch to ${theme === "light" ? "dark" : "light"} mode`,
+    "aria-label": `Switch to ${theme === "dark" ? "light" : "dark"} mode`,
     onChange,
   });
 
